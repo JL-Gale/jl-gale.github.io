@@ -1,0 +1,120 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+
+
+#metamosfosis {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+#contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+#seccion-izquierda {
+      margin-left: 10px;
+      border-radius: 2rem;
+      width: 20%; /* ocupa el 30% del ancho */
+      height: max-content;
+      background-color: #3e4247; /* color de fondo */
+      color: white; /* color del texto */
+      padding: 20px; /* espacio interno */
+    }
+
+
+#seccion-derecha {
+      margin-right: 10px;
+      border-radius: 2rem;
+      width: 20%; /* ocupa el 30% del ancho */
+      height: max-content;
+      background-color: #3e4247; /* color de fondo */
+      color: white; /* color del texto */
+      padding: 20px; /* espacio interno */
+    }
+
+
+    #contenido {
+      flex: 1; /* ocupa el resto del espacio */
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+hr {
+    background: rgb(205, 50, 166);
+    height: 2px;
+}
+
+#contener_guason {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+}
+
+#terry {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.guason {
+    margin: 20px;
+    width: 200px;
+}
+
+#link_guason {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+#title {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#texts {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+
+#testx:visited{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+
+#texts:active {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+#texto {
+    padding: 20px;
+    border-radius: 2rem;
+    display: inline-block;
+    width: 250px;
+    background: salmon;
+}
